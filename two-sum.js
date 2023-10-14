@@ -1,5 +1,6 @@
 
 
+// O(n^2)
 function twoSum(arr, target) {
 
 
@@ -13,6 +14,25 @@ function twoSum(arr, target) {
                 return [i, j]
             }          
 
+        }
+
+    }
+
+}
+
+// O(n)
+function twoSum(arr, target) {
+
+    const tempArr = new Map();
+
+    for (let i = 0; i < arr.length; i++) {
+
+        let complement = target - arr[i];
+
+        if (tempArr.has(complement)) {
+            return [tempArr.get(complement), i]
+        } else {
+            tempArr.set(arr[i], i)
         }
 
     }
