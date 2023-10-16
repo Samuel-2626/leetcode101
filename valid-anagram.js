@@ -1,7 +1,7 @@
 
 
 
-// O(n^2)
+// O(n)
 function isAnagram(s, t) {
 
     // For an anagram word, the frequency of the two words must be equal
