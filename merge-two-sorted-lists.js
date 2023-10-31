@@ -11,6 +11,7 @@ class ListNode {
 }
 
 
+// O(m + n)
 function mergeTwoLists(list1, list2) {
 
     let dummy = new ListNode(0)
