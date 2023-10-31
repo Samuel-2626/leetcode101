@@ -10,6 +10,7 @@
 // Return the modified image after performing the flood fill.
 
 
+// O(m x n)
 
 function floodFill(image, sr, sc, color) {
 
