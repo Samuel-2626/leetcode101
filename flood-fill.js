@@ -37,4 +37,4 @@ function floodFill(image, sr, sc, color) {
 }
 
 
-console.log(floodFill([[0,0,0],[0,0,0]], 0, 0, 0));
+console.log(floodFill([[1,1,1],[1,1,0],[1,0,1]], 1, 1, 2));
