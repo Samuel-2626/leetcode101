@@ -16,6 +16,9 @@ class TreeNode {
 }
 
 
+// T: O(log n)
+// S: O(N), where N = height of the tree.
+
 
 function lowestCommonAncestor(root, p, q) {
 
